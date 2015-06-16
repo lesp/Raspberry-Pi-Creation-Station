@@ -10,6 +10,7 @@ do
     df | grep -o $dev$drive
 done
 
+#DANGEROUS COMMAND BELOW DON'T RUN IT UNTIL YOU ARE 100% CERTAIN THE DRIVES ARE CORRECT
 #dcfldd if=./hackpool.img of=/dev/sdb of=/dev/sdc of=/dev/mmcblk0 sizeprobe=if
 
 
